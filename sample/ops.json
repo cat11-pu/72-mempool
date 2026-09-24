@@ -1,0 +1,14 @@
+{
+  "block": 4,
+  "capacity": 8,
+  "probe_payload": "g",
+  "handle_invariant": true,
+  "ops": [
+    {"op": "alloc", "name": "a", "payload": "a"},
+    {"op": "alloc", "name": "b", "payload": "b"},
+    {"op": "alloc", "name": "c", "payload": "c"},
+    {"op": "free", "name": "b"},
+    {"op": "alloc", "name": "d", "payload": "d"},
+    {"op": "free", "name": "a"}
+  ]
+}
